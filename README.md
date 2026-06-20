@@ -1,6 +1,6 @@
 # ISL CNN + KAN Research Project
 
-This project implements a research-style Indian Sign Language image classification pipeline using a pretrained ResNet18 backbone and compares a standard linear classifier against a KAN classifier head from the `efficient-kan` repository.
+This project implements a research-style Indian Sign Language image classification pipeline using a pretrained ResNet18 backbone and compares a standard linear classifier against a KAN classifier head.
 
 ## Research objective
 
