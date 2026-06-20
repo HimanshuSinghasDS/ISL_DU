@@ -9,7 +9,6 @@ Compare:
 - **Proposed**: pretrained ResNet18 + KAN head
 - **Ablation**: pretrained ResNet18 + KAN head with last CNN block fine-tuning
 
-The KAN implementation is based on the efficient PyTorch `efficient-kan` repository by Blealtan.
 
 ## Dataset structure
 
@@ -85,8 +84,4 @@ Report the following:
 - Confusion matrix comparison between baseline and KAN
 - Training stability and convergence behavior
 
-## Notes
 
-- If your dataset class count is not 26, the training code automatically updates the final class count from folder names.
-- If your installed `efficient-kan` version exposes a slightly different API, adjust the import inside `models/cnn_kan.py` accordingly.
-- Horizontal flip is intentionally not used by default, because some hand-sign datasets may not preserve class semantics under left-right flipping.
